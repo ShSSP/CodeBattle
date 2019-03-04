@@ -1,0 +1,36 @@
+C:\Users\User\Desktop\Codebattle files\CodeBattle.net\obj\Debug\netcoreapp2.2\CodeBattle.net.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Codebattle files\CodeBattle.net\obj\Debug\netcoreapp2.2\CodeBattle.net.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Codebattle files\CodeBattle.net\obj\Debug\netcoreapp2.2\CodeBattle.net.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Codebattle files\CodeBattle.net\obj\Debug\netcoreapp2.2\CodeBattle.net.AssemblyInfo.cs
+C:\Users\User\Desktop\Codebattle files\CodeBattle.net\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\User\Desktop\Codebattle files\CodeBattle.net\bin\Debug\netcoreapp2.2\CodeBattle.net.deps.json
+C:\Users\User\Desktop\Codebattle files\CodeBattle.net\bin\Debug\netcoreapp2.2\CodeBattle.net.runtimeconfig.json
+C:\Users\User\Desktop\Codebattle files\CodeBattle.net\bin\Debug\netcoreapp2.2\CodeBattle.net.runtimeconfig.dev.json
+C:\Users\User\Desktop\Codebattle files\CodeBattle.net\bin\Debug\netcoreapp2.2\CodeBattle.net.dll
+C:\Users\User\Desktop\Codebattle files\CodeBattle.net\bin\Debug\netcoreapp2.2\CodeBattle.net.pdb
+C:\Users\User\Desktop\Codebattle files\CodeBattle.net\obj\Debug\netcoreapp2.2\CodeBattle.net.dll
+C:\Users\User\Desktop\Codebattle files\CodeBattle.net\obj\Debug\netcoreapp2.2\CodeBattle.net.pdb
+C:\Users\SSSP\source\repos\codebattle-starmarines-clients-master\CodeBattleByRavil.net\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\SSSP\source\repos\codebattle-starmarines-clients-master\CodeBattleByRavil.net\bin\Debug\netcoreapp2.2\CodeBattle.net.deps.json
+C:\Users\SSSP\source\repos\codebattle-starmarines-clients-master\CodeBattleByRavil.net\bin\Debug\netcoreapp2.2\CodeBattle.net.runtimeconfig.json
+C:\Users\SSSP\source\repos\codebattle-starmarines-clients-master\CodeBattleByRavil.net\bin\Debug\netcoreapp2.2\CodeBattle.net.runtimeconfig.dev.json
+C:\Users\SSSP\source\repos\codebattle-starmarines-clients-master\CodeBattleByRavil.net\bin\Debug\netcoreapp2.2\CodeBattle.net.dll
+C:\Users\SSSP\source\repos\codebattle-starmarines-clients-master\CodeBattleByRavil.net\bin\Debug\netcoreapp2.2\CodeBattle.net.pdb
+C:\Users\SSSP\source\repos\codebattle-starmarines-clients-master\CodeBattleByRavil.net\obj\Debug\netcoreapp2.2\CodeBattle.net.csprojAssemblyReference.cache
+C:\Users\SSSP\source\repos\codebattle-starmarines-clients-master\CodeBattleByRavil.net\obj\Debug\netcoreapp2.2\CodeBattle.net.csproj.CoreCompileInputs.cache
+C:\Users\SSSP\source\repos\codebattle-starmarines-clients-master\CodeBattleByRavil.net\obj\Debug\netcoreapp2.2\CodeBattle.net.AssemblyInfoInputs.cache
+C:\Users\SSSP\source\repos\codebattle-starmarines-clients-master\CodeBattleByRavil.net\obj\Debug\netcoreapp2.2\CodeBattle.net.AssemblyInfo.cs
+C:\Users\SSSP\source\repos\codebattle-starmarines-clients-master\CodeBattleByRavil.net\obj\Debug\netcoreapp2.2\CodeBattle.net.dll
+C:\Users\SSSP\source\repos\codebattle-starmarines-clients-master\CodeBattleByRavil.net\obj\Debug\netcoreapp2.2\CodeBattle.net.pdb
+C:\Users\shish\Desktop\CodeBattleByRavil.net_v2.0\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\shish\Desktop\CodeBattleByRavil.net_v2.0\bin\Debug\netcoreapp2.2\CodeBattle.net.deps.json
+C:\Users\shish\Desktop\CodeBattleByRavil.net_v2.0\bin\Debug\netcoreapp2.2\CodeBattle.net.runtimeconfig.json
+C:\Users\shish\Desktop\CodeBattleByRavil.net_v2.0\bin\Debug\netcoreapp2.2\CodeBattle.net.runtimeconfig.dev.json
+C:\Users\shish\Desktop\CodeBattleByRavil.net_v2.0\bin\Debug\netcoreapp2.2\CodeBattle.net.dll
+C:\Users\shish\Desktop\CodeBattleByRavil.net_v2.0\bin\Debug\netcoreapp2.2\CodeBattle.net.pdb
+C:\Users\shish\Desktop\CodeBattleByRavil.net_v2.0\obj\Debug\netcoreapp2.2\CodeBattle.net.csprojAssemblyReference.cache
+C:\Users\shish\Desktop\CodeBattleByRavil.net_v2.0\obj\Debug\netcoreapp2.2\CodeBattle.net.csproj.CoreCompileInputs.cache
+C:\Users\shish\Desktop\CodeBattleByRavil.net_v2.0\obj\Debug\netcoreapp2.2\CodeBattle.net.AssemblyInfoInputs.cache
+C:\Users\shish\Desktop\CodeBattleByRavil.net_v2.0\obj\Debug\netcoreapp2.2\CodeBattle.net.AssemblyInfo.cs
+C:\Users\shish\Desktop\CodeBattleByRavil.net_v2.0\obj\Debug\netcoreapp2.2\CodeBattle.net.dll
+C:\Users\shish\Desktop\CodeBattleByRavil.net_v2.0\obj\Debug\netcoreapp2.2\CodeBattle.net.pdb
