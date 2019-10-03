@@ -21,6 +21,7 @@
  */
 using Loderunner.Api;
 using System;
+using System.Collections.Generic;
 using System.Threading;
 
 namespace Demo
@@ -39,6 +40,9 @@ namespace Demo
             // starting thread with playing game
             client.Run(gameBoard =>
             {
+                var root = new Node();
+
+
                 Random random = new Random(Environment.TickCount);
                 return (LoderunnerAction)random.Next(3);
 
@@ -49,6 +53,46 @@ namespace Demo
 
             // on any key - asking AI client to stop.
             client.InitiateExit();
+        }
+    }
+
+    class Paths
+    {
+        public List<Node> UsedNodes = new List<Node>();
+        public Node Root;
+        GameBoard GameBoard;
+
+        public Paths(GameBoard gameBoard, Node root)
+        {
+            Root = root;
+            GameBoard = gameBoard;
+        }
+
+        public Node DoMove(Node from)
+        {
+            var position = from.Position;
+
+        }
+    }
+
+    class Node
+    {
+        public Node From;
+        public BoardPoint Position;
+        public BoardElement PositionElement;
+        public List<Node> To = new List<Node>();
+
+        public Node(Node from, BoardPoint position)
+        {
+            From = from;
+            Position = position;
+        }
+
+        public Node(Node from, BoardPoint position, BoardElement positionElement)
+        {
+            From = from;
+            Position = position;
+            PositionElement = positionElement;
         }
     }
 }
