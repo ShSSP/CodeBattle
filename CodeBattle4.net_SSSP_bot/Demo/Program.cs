@@ -58,9 +58,9 @@ namespace Demo
 
     class Paths
     {
-        public List<Node> UsedNodes = new List<Node>();
+        public HashSet<Node> UsedNodes = new HashSet<Node>();
         public Node Root;
-        GameBoard GameBoard;
+        GameBoard gameBoard;
 
         public Paths(GameBoard gameBoard, Node root)
         {
@@ -68,10 +68,18 @@ namespace Demo
             GameBoard = gameBoard;
         }
 
-        public Node DoMove(Node from)
+        void FindBestPath()
         {
-            var position = from.Position;
+            var move = DoMove(Root);
+        }
 
+        public Node DoMove(Node from)
+        {            
+            if(from.PositionElement == BoardElement.None)
+            {
+
+            }
+            if(from.)
         }
     }
 
@@ -93,6 +101,17 @@ namespace Demo
             From = from;
             Position = position;
             PositionElement = positionElement;
+        }
+
+        public override bool Equals(object obj)
+        {
+            var node = obj as Node;
+            return node != null &&
+                   EqualityComparer<BoardPoint>.Default.Equals(Position, node.Position);
+        }
+        public override int GetHashCode()
+        {
+            return -425505606 + EqualityComparer<BoardPoint>.Default.GetHashCode(Position);
         }
     }
 }
