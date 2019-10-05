@@ -58,20 +58,70 @@ namespace Demo
 
     class Paths
     {
-        public List<Node> UsedNodes = new List<Node>();
+        public HashSet<Node> UsedNodes = new HashSet<Node>();
         public Node Root;
-        GameBoard GameBoard;
+        GameBoard gameBoard;
 
-        public Paths(GameBoard gameBoard, Node root)
+        public Paths(GameBoard _gameBoard, Node root)
         {
             Root = root;
-            GameBoard = gameBoard;
+            gameBoard = _gameBoard;
         }
 
-        public Node DoMove(Node from)
+        void FindBestPath()
         {
-            var position = from.Position;
+            DoMove(Root);
 
+        }
+
+        public void DoMove(Node from)
+        {            
+            if(from.PositionElement == BoardElement.None)
+            {
+                DoMove(newMove);
+                var shiftRight = from.Position.ShiftRight();
+                DoMove(new Node(from, shiftLeft, gameBoard.GetElementAt(shiftLeft)));
+            }
+            if(from.)
+        }
+
+        private void MoveLift(Node from)
+        {
+            var shiftLeft = from.Position.ShiftLeft();
+            var newMove = new Node(from, shiftLeft, gameBoard.GetElementAt(shiftLeft));
+            from.To.Add(newMove);
+            DoMove(newMove);
+        }
+
+        private void MoveRight(Node from)
+        {
+            var shiftRight = from.Position.ShiftRight();
+            var newMove = new Node(from, shiftRight, gameBoard.GetElementAt(shiftRight));
+            from.To.Add(newMove);
+            DoMove(newMove);
+        }
+
+        private void Move(Node node, BoardPoint shift)
+        {
+            var newMove = new Node(node, shiftLeft, gameBoard.GetElementAt(shiftLeft));
+            from.To.Add(newMove);
+            DoMove(newMove);
+        }
+
+        private void MoveLift(Node from)
+        {
+            var shiftLeft = from.Position.ShiftLeft();
+            var newMove = new Node(from, shiftLeft, gameBoard.GetElementAt(shiftLeft));
+            from.To.Add(newMove);
+            DoMove(newMove);
+        }
+
+        private void MoveLift(Node from)
+        {
+            var shiftLeft = from.Position.ShiftLeft();
+            var newMove = new Node(from, shiftLeft, gameBoard.GetElementAt(shiftLeft));
+            from.To.Add(newMove);
+            DoMove(newMove);
         }
     }
 
@@ -93,6 +143,17 @@ namespace Demo
             From = from;
             Position = position;
             PositionElement = positionElement;
+        }
+
+        public override bool Equals(object obj)
+        {
+            var node = obj as Node;
+            return node != null &&
+                   EqualityComparer<BoardPoint>.Default.Equals(Position, node.Position);
+        }
+        public override int GetHashCode()
+        {
+            return -425505606 + EqualityComparer<BoardPoint>.Default.GetHashCode(Position);
         }
     }
 }
