@@ -62,24 +62,66 @@ namespace Demo
         public Node Root;
         GameBoard gameBoard;
 
-        public Paths(GameBoard gameBoard, Node root)
+        public Paths(GameBoard _gameBoard, Node root)
         {
             Root = root;
-            GameBoard = gameBoard;
+            gameBoard = _gameBoard;
         }
 
         void FindBestPath()
         {
-            var move = DoMove(Root);
+            DoMove(Root);
+
         }
 
-        public Node DoMove(Node from)
+        public void DoMove(Node from)
         {            
             if(from.PositionElement == BoardElement.None)
             {
-
+                DoMove(newMove);
+                var shiftRight = from.Position.ShiftRight();
+                DoMove(new Node(from, shiftLeft, gameBoard.GetElementAt(shiftLeft)));
             }
             if(from.)
+        }
+
+        private void MoveLift(Node from)
+        {
+            var shiftLeft = from.Position.ShiftLeft();
+            var newMove = new Node(from, shiftLeft, gameBoard.GetElementAt(shiftLeft));
+            from.To.Add(newMove);
+            DoMove(newMove);
+        }
+
+        private void MoveRight(Node from)
+        {
+            var shiftRight = from.Position.ShiftRight();
+            var newMove = new Node(from, shiftRight, gameBoard.GetElementAt(shiftRight));
+            from.To.Add(newMove);
+            DoMove(newMove);
+        }
+
+        private void Move(Node node, BoardPoint shift)
+        {
+            var newMove = new Node(node, shiftLeft, gameBoard.GetElementAt(shiftLeft));
+            from.To.Add(newMove);
+            DoMove(newMove);
+        }
+
+        private void MoveLift(Node from)
+        {
+            var shiftLeft = from.Position.ShiftLeft();
+            var newMove = new Node(from, shiftLeft, gameBoard.GetElementAt(shiftLeft));
+            from.To.Add(newMove);
+            DoMove(newMove);
+        }
+
+        private void MoveLift(Node from)
+        {
+            var shiftLeft = from.Position.ShiftLeft();
+            var newMove = new Node(from, shiftLeft, gameBoard.GetElementAt(shiftLeft));
+            from.To.Add(newMove);
+            DoMove(newMove);
         }
     }
 
